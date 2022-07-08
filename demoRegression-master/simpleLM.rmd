@@ -24,6 +24,8 @@ abline(simp)
 summary.lm(simp)
 ```
 
+The adjusted R-square for this model (NECK) is 0.7476
+
 ## now predict the length of a bear who has a neck of 17, 22 and 26
 
 ```{r}
@@ -31,6 +33,8 @@ new <- data.frame(NECK=c(17,22,26))
 predict(simp,new)
 predict(simp,new,se.fit=TRUE)
 ```
+
+The predict length of a Bear that measures 17 is 52, a Bear that measures 22 is 60 and a bear that measures 26 is 67. 
 
 ## Surely there is another variable that can better predict LENGTH than NECK. Find one and compare its performance to that of neck by it value of Adjusted-Rsquared (bigger is better).
 
