@@ -55,5 +55,5 @@ predict(chesty,new)
 predict(chesty,new,se.fit=TRUE)
 ```
 
-
+According to the measurements of the Bears the largest R-square is CHEST with the value of 0.79 
 
